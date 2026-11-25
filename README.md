@@ -19,6 +19,12 @@ Live **Claude**, **ChatGPT**, **Antigravity**, **Gemini**, **OpenRouter**, **Git
 
 ---
 
+## Acknowledgements
+
+[Antigravity](https://antigravity.google) was used to assist with the development of this plugin and to generate the demonstration images in this README for public showcase.
+
+---
+
 ## Why install AI Usage?
 
 Most developers switch between Claude Code, Codex CLI, Antigravity (`agy`), Gemini CLI, Copilot, and API keys throughout the day, only noticing a 5-hour or weekly reset cap when a prompt fails mid-task. **AI Usage** brings every quota into one native glass pill beside your system clock, with zero background bloat and zero third-party `pip` dependencies.
