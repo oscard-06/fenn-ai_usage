@@ -25,6 +25,8 @@ Most developers switch between Claude Code, Codex CLI, Antigravity (`agy`), Gemi
 
 > [!NOTE]
 > **Testing note:** I have personally tested **Claude**, **ChatGPT (GPT)**, and **Antigravity** live on my own setup. **Gemini CLI**, **OpenRouter**, **GitHub Copilot**, and **Custom JSON** are implemented against their official APIs and covered by unit tests, so feedback or PRs for those providers are very welcome!
+>
+> **Availability:** I am at work all week, so I will reply to issues and PRs as soon as possible in the evenings or at weekends. Thanks for your patience!
 
 ### What makes it click
 
