@@ -1,0 +1,12 @@
+# Live AI usage limits for Claude, ChatGPT, Antigravity, Gemini, OpenRouter,
+# GitHub Copilot, and custom JSON endpoints on Fenn's taskbar and floating notch.
+id = "ai-usage"
+name = "AI Usage"
+icon = "gauge"
+size = "wide"
+run = ["python", "main.py"]
+mode = "live"
+accepts_files = true
+page_size = [640, 480]
+description = "Track usage limits across Claude, ChatGPT, Antigravity, Gemini, OpenRouter, GitHub Copilot, and custom JSON endpoints on Fenn's taskbar and notch."
+version = "1.0.0"

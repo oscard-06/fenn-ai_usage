@@ -1,0 +1,4 @@
+# Fenn's taskbar item. Kept out of plugin.toml so Fenn 0.5, which doesn't
+# know [taskbar], still installs this plugin (as a notch tile).
+popup_width = 540
+preview_width = 290

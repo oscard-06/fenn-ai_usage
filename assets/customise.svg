@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 296" width="960" height="296" role="img" aria-label="Customisation architecture across visible counter toggles, independent taskbar and notch windows, and persistent quota caching">
+  <defs>
+    <linearGradient id="cBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#191c25"/>
+      <stop offset="100%" stop-color="#12151c"/>
+    </linearGradient>
+  </defs>
+
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif">
+    <rect width="960" height="296" rx="18" fill="#0d1016" stroke="#ffffff" stroke-opacity="0.09"/>
+
+    <!-- Panel 1: Per-Counter Visibility -->
+    <g transform="translate(22, 20)">
+      <rect width="292" height="256" rx="14" fill="url(#cBg)" stroke="#ffffff" stroke-opacity="0.11"/>
+      <text x="16" y="28" fill="#f2f4f8" font-size="13" font-weight="700">Visible Counters</text>
+      <text x="16" y="45" fill="#8b94a5" font-size="10.5">Toggle any meter in hover preview &amp; cards</text>
+
+      <!-- Claude toggles -->
+      <rect x="16" y="64" width="10" height="7" rx="1.5" fill="#d97757"/>
+      <text x="32" y="71" fill="#e6eaf2" font-size="11.5" font-weight="700">Claude</text>
+      <rect x="16" y="80" width="124" height="30" rx="8" fill="#ffffff" fill-opacity="0.05"/>
+      <text x="26" y="99" fill="#d3d9e3" font-size="11">5h</text>
+      <rect x="106" y="88" width="24" height="14" rx="7" fill="#7c5cff"/>
+      <circle cx="123" cy="95" r="5" fill="#ffffff"/>
+
+      <rect x="150" y="80" width="126" height="30" rx="8" fill="#ffffff" fill-opacity="0.05"/>
+      <text x="160" y="99" fill="#d3d9e3" font-size="11">7d</text>
+      <rect x="242" y="88" width="24" height="14" rx="7" fill="#7c5cff"/>
+      <circle cx="259" cy="95" r="5" fill="#ffffff"/>
+
+      <!-- Antigravity toggles -->
+      <polygon points="21,126 25.5,135 23.5,135 21,130 18.5,135 16.5,135" fill="#5b6eff"/>
+      <text x="32" y="135" fill="#e6eaf2" font-size="11.5" font-weight="700">Antigravity</text>
+
+      <rect x="16" y="144" width="124" height="30" rx="8" fill="#ffffff" fill-opacity="0.05"/>
+      <text x="26" y="163" fill="#d3d9e3" font-size="10.5">Gemini 5h</text>
+      <rect x="106" y="152" width="24" height="14" rx="7" fill="#7c5cff"/>
+      <circle cx="123" cy="159" r="5" fill="#ffffff"/>
+
+      <rect x="150" y="144" width="126" height="30" rx="8" fill="#ffffff" fill-opacity="0.05"/>
+      <text x="160" y="163" fill="#d3d9e3" font-size="10.5">Gemini 7d</text>
+      <rect x="242" y="152" width="24" height="14" rx="7" fill="#7c5cff"/>
+      <circle cx="259" cy="159" r="5" fill="#ffffff"/>
+
+      <rect x="16" y="182" width="124" height="30" rx="8" fill="#ffffff" fill-opacity="0.05"/>
+      <text x="26" y="201" fill="#d3d9e3" font-size="10.5">3rd-Party 5h</text>
+      <rect x="106" y="190" width="24" height="14" rx="7" fill="#7c5cff"/>
+      <circle cx="123" cy="197" r="5" fill="#ffffff"/>
+
+      <rect x="150" y="182" width="126" height="30" rx="8" fill="#ffffff" fill-opacity="0.05"/>
+      <text x="160" y="201" fill="#8b94a5" font-size="10.5">3rd-Party 7d</text>
+      <rect x="242" y="190" width="24" height="14" rx="7" fill="#ffffff" fill-opacity="0.16"/>
+      <circle cx="249" cy="197" r="5" fill="#cfd5e0"/>
+
+      <text x="16" y="236" fill="#737c8d" font-size="9.5">Every implemented counter is independently toggleable</text>
+    </g>
+
+    <!-- Panel 2: Independent Taskbar & Notch -->
+    <g transform="translate(334, 20)">
+      <rect width="292" height="256" rx="14" fill="url(#cBg)" stroke="#ffffff" stroke-opacity="0.11"/>
+      <text x="16" y="28" fill="#f2f4f8" font-size="13" font-weight="700">Taskbar &amp; Notch Controls</text>
+      <text x="16" y="45" fill="#8b94a5" font-size="10.5">Identical settings from either popup or notch</text>
+
+      <!-- Taskbar chips -->
+      <text x="16" y="72" fill="#9ea6b5" font-size="10.5" font-weight="600">Claude taskbar window</text>
+      <text x="276" y="72" text-anchor="end" fill="#7c8596" font-size="10">Default</text>
+      <rect x="16" y="80" width="60" height="24" rx="12" fill="#7c5cff"/>
+      <text x="46" y="95.5" text-anchor="middle" fill="#ffffff" font-size="10.5" font-weight="600">5h</text>
+      <rect x="82" y="80" width="60" height="24" rx="12" fill="#ffffff" fill-opacity="0.07"/>
+      <text x="112" y="95.5" text-anchor="middle" fill="#cfd5e0" font-size="10.5">7d</text>
+      <rect x="148" y="80" width="84" height="24" rx="12" fill="#ffffff" fill-opacity="0.07"/>
+      <text x="190" y="95.5" text-anchor="middle" fill="#cfd5e0" font-size="10.5">Tightest</text>
+
+      <!-- Notch chips -->
+      <text x="16" y="130" fill="#9ea6b5" font-size="10.5" font-weight="600">Antigravity notch tile</text>
+      <text x="276" y="130" text-anchor="end" fill="#5b6eff" font-size="10" font-weight="600">Tightest</text>
+      <rect x="16" y="138" width="68" height="24" rx="12" fill="#ffffff" fill-opacity="0.07"/>
+      <text x="50" y="153.5" text-anchor="middle" fill="#cfd5e0" font-size="10.5">Follow</text>
+      <rect x="90" y="138" width="90" height="24" rx="12" fill="#ffffff" fill-opacity="0.07"/>
+      <text x="135" y="153.5" text-anchor="middle" fill="#cfd5e0" font-size="10.5">Gemini 5h</text>
+      <rect x="186" y="138" width="90" height="24" rx="12" fill="#5b6eff"/>
+      <text x="231" y="153.5" text-anchor="middle" fill="#ffffff" font-size="10.5" font-weight="600">Tightest</text>
+
+      <!-- Display chips -->
+      <text x="16" y="188" fill="#9ea6b5" font-size="10.5" font-weight="600">Colours &amp; Claude icon</text>
+      <rect x="16" y="196" width="68" height="24" rx="12" fill="#7c5cff"/>
+      <text x="50" y="211.5" text-anchor="middle" fill="#ffffff" font-size="10.5" font-weight="600">Brand</text>
+      <rect x="90" y="196" width="84" height="24" rx="12" fill="#ffffff" fill-opacity="0.07"/>
+      <text x="132" y="211.5" text-anchor="middle" fill="#cfd5e0" font-size="10.5">Traffic</text>
+      <rect x="180" y="196" width="96" height="24" rx="12" fill="#d97757" fill-opacity="0.24" stroke="#d97757" stroke-opacity="0.5"/>
+      <text x="228" y="211.5" text-anchor="middle" fill="#f5b8a4" font-size="10.5" font-weight="600">Clawd pet</text>
+
+      <text x="16" y="241" fill="#737c8d" font-size="9.5">Zero pill clipping · auto-wraps across narrow popups</text>
+    </g>
+
+    <!-- Panel 3: Session Persistence & Silent Refresh -->
+    <g transform="translate(646, 20)">
+      <rect width="292" height="256" rx="14" fill="url(#cBg)" stroke="#ffffff" stroke-opacity="0.11"/>
+      <text x="16" y="28" fill="#f2f4f8" font-size="13" font-weight="700">Persistent Quota Cache</text>
+      <text x="16" y="45" fill="#8b94a5" font-size="10.5">Readings never vanish when a CLI expires</text>
+
+      <!-- Step 1 -->
+      <rect x="16" y="64" width="260" height="44" rx="10" fill="#30d158" fill-opacity="0.12" stroke="#30d158" stroke-opacity="0.28"/>
+      <text x="28" y="83" fill="#30d158" font-size="11" font-weight="700">1. Live Fetch &amp; Cache</text>
+      <text x="28" y="98" fill="#b8c0cf" font-size="10">Saves windows + reset epochs locally</text>
+
+      <path d="M146 110 L146 120" stroke="#7c8596" stroke-width="1.5"/>
+
+      <!-- Step 2 -->
+      <rect x="16" y="122" width="260" height="44" rx="10" fill="#4e8df5" fill-opacity="0.12" stroke="#4e8df5" stroke-opacity="0.28"/>
+      <text x="28" y="141" fill="#4e8df5" font-size="11" font-weight="700">2. Safe CLI Auto-Refresh</text>
+      <text x="28" y="156" fill="#b8c0cf" font-size="10">Calls `claude auth status` or `agy models`</text>
+
+      <path d="M146 168 L146 178" stroke="#7c8596" stroke-width="1.5"/>
+
+      <!-- Step 3 -->
+      <rect x="16" y="180" width="260" height="48" rx="10" fill="#ff9f0a" fill-opacity="0.12" stroke="#ff9f0a" stroke-opacity="0.32"/>
+      <text x="28" y="199" fill="#ff9f0a" font-size="11" font-weight="700">3. Graceful Cached Fallback</text>
+      <text x="28" y="214" fill="#b8c0cf" font-size="10">Shows last known % · `window elapsed` tag</text>
+
+      <text x="16" y="244" fill="#737c8d" font-size="9.5">Zero background token corruption · read-only auth</text>
+    </g>
+  </g>
+</svg>
