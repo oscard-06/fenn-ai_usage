@@ -23,6 +23,9 @@ Live **Claude**, **ChatGPT**, **Antigravity**, **Gemini**, **OpenRouter**, **Git
 
 Most developers switch between Claude Code, Codex CLI, Antigravity (`agy`), Gemini CLI, Copilot, and API keys throughout the day, only noticing a 5-hour or weekly reset cap when a prompt fails mid-task. **AI Usage** brings every quota into one native glass pill beside your system clock, with zero background bloat and zero third-party `pip` dependencies.
 
+> [!NOTE]
+> **Testing note:** I have personally tested **Claude**, **ChatGPT (GPT)**, and **Antigravity** live on my own setup. **Gemini CLI**, **OpenRouter**, **GitHub Copilot**, and **Custom JSON** are implemented against their official APIs and covered by unit tests, so feedback or PRs for those providers are very welcome!
+
 ### What makes it click
 
 - **Unambiguous taskbar bars**: Shows exact `% used` or `% left` right under every progress bar so you never guess which direction a bar fills.
